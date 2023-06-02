@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "whisperhallu"
+version = "0.1.0"
+description = "Forked from https://github.com/EtienneAb3d/WhisperHallu."
+authors = ["John-Henry Lim <42513874+Interpause@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+torch = "^2.0.1"
+torchaudio = "^2.0.2"
+demucs = "^4.0.0"
+faster-whisper = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
